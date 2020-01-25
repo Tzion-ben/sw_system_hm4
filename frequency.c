@@ -106,7 +106,6 @@ void reLixi(TrieNode *RootTrieNode,char *str,int index) {
             str[index]='\0';
             printf("%s\t",str);
             printf("%ld\n",RootTrieNode->count);
-            free(RootTrieNode);
             return;
         }
     }
