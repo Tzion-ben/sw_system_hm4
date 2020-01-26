@@ -78,6 +78,8 @@ int letterLocation(char ch)
 
 /**
 *this method printing the words at the trie in lexicographly
+*the index value is remember from he came and print verey well somethimg like 
+* asd,axc, it help us to remmber the leters that is the same prifex but different countinues
 */
 void upLixi(TrieNode *RootTrieNode,char *str,int index) {
     if(RootTrieNode->childrenNum==0){
